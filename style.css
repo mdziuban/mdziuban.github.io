@@ -6,3 +6,11 @@
   transform: scale(1.2);
   transition: .2s;
 }
+
+:root {
+  --dark-blue: #6CA6D9;
+  --light-blue: #ADC5D9;
+  --green: #465902;
+  --olive-green: #384001;
+  --dark-green: #222601;
+}
