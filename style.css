@@ -14,3 +14,8 @@
   --olive-green: #384001;
   --dark-green: #222601;
 }
+
+.dark-green {
+  background-color: var(--dark-green);
+  color: white;
+}
