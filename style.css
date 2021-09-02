@@ -1,4 +1,6 @@
 .img-wrap {
+  position: relative;
+  /* height: 100vh; */
   overflow: hidden;
 }
 
@@ -8,14 +10,78 @@
 }
 
 :root {
-  --dark-blue: #6CA6D9;
-  --light-blue: #ADC5D9;
-  --green: #465902;
-  --olive-green: #384001;
-  --dark-green: #222601;
+
+  --light-blue: #BFCDD9;
+  --slate: #8697A6;
+  --blue: #8EB7E4;
+  --dark-green: #384001;
+  --light-grey: #E4EBF2;
+
+
+  --dark-grey: #172621;
+  --golden: #F2E41D;
+  --brown: #736151;
+  --green-grey: #3D4036;
+  --pink: #D9A491;
+
+ 
+}
+
+.dark-grey {
+  background-color: var(--dark-grey);
+}
+.golden {
+  background-color: var(--golden);
+}
+.brown {
+  background-color: var(--brown);
+}
+.green-grey {
+  background-color: var(--green-grey);
+}
+.pink {
+  background-color: var(--pink);
 }
 
 .dark-green {
   background-color: var(--dark-green);
-  color: white;
 }
+
+.light-grey {
+  background-color: var(--light-grey);
+}
+
+.slate {
+  background-color: var(--slate);
+
+}
+
+.light-blue {
+  background-color: var(--light-blue);
+}
+
+.blue {
+  background-color: var(--blue);
+}
+
+.gold {
+  color: gold;
+}
+
+body {
+
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.list-group-item-action:hover {
+  color: black !important;
+}
+
+.text-over-image {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  background-color: rgba(0,0,0,.5);
+}
+
+
