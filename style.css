@@ -64,26 +64,20 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
-.list-group-item-action:hover {
-  color: black !important;
-}
-
 .text-over-image {
   position: absolute;
   left: 0%;
   right: 0%;
-  /* background-color: rgba(0,0,0,.5); */
+  background-color: rgba(0,0,0,.3);
 }
 
 .glow {
-  /* font-size: 80px; */
   color: #fff;
   text-align: center;
   animation: glow 1s ease-in-out infinite alternate;
 }
 
 .nav-link-glow:hover {
-  /* font-size: 80px; */
   color: #fff;
   text-align: center;
   animation: glow 1s ease-in-out infinite alternate;
@@ -98,4 +92,5 @@ body {
     text-shadow: 0 0 20px #fff, 0 0 30px #FFFA75, 0 0 40px #FFFA75, 0 0 50px #FFFA75, 0 0 60px #FFFA75, 0 0 70px #FFFA75, 0 0 80px #FFFA75;
   }
 }
+
 
