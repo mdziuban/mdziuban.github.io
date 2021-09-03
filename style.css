@@ -1,7 +1,14 @@
 .img-wrap {
   position: relative;
-  /* height: 100vh; */
   overflow: hidden;
+}
+
+.main-img {
+  height: 100vh;
+}
+
+.xl-font {
+  font-size: 2rem;
 }
 
 .zoom:hover {
@@ -9,64 +16,48 @@
   transition: .2s;
 }
 
-:root {
-
-  --light-blue: #BFCDD9;
-  --slate: #8697A6;
-  --blue: #8EB7E4;
-  --dark-green: #384001;
-  --light-grey: #E4EBF2;
-
-
-  --dark-grey: #172621;
-  --golden: #F2E41D;
-  --brown: #736151;
-  --green-grey: #3D4036;
-  --pink: #D9A491;
-
- 
+.head-font {
+  font-size: 5rem;
 }
 
+.subtitle-font {
+  font-size: 4rem;
+}
+
+:root {
+
+  --offwhite: #EDEDE6;
+  --beige: #BFB6A8;
+  --yellow: #DECC00;
+  --grey: #636159;
+  --dark-grey: #1C241F;
+
+}
+.yellow-text{
+  color: var(--yellow);
+}
+.offwhite-text {
+  color: var(--offwhite);
+}
+.beige-text {
+  color: var(--beige);
+}
 .dark-grey {
   background-color: var(--dark-grey);
 }
-.golden {
-  background-color: var(--golden);
+.yellow {
+  background-color: var(--yellow);
 }
-.brown {
-  background-color: var(--brown);
+.beige {
+  background-color: var(--beige);
 }
-.green-grey {
-  background-color: var(--green-grey);
+.grey {
+  background-color: var(--grey);
 }
-.pink {
-  background-color: var(--pink);
-}
-
-.dark-green {
-  background-color: var(--dark-green);
+.offwhite {
+  background-color: var(--offwhite);
 }
 
-.light-grey {
-  background-color: var(--light-grey);
-}
-
-.slate {
-  background-color: var(--slate);
-
-}
-
-.light-blue {
-  background-color: var(--light-blue);
-}
-
-.blue {
-  background-color: var(--blue);
-}
-
-.gold {
-  color: gold;
-}
 
 body {
 
@@ -81,7 +72,30 @@ body {
   position: absolute;
   left: 0%;
   right: 0%;
-  background-color: rgba(0,0,0,.5);
+  /* background-color: rgba(0,0,0,.5); */
 }
 
+.glow {
+  /* font-size: 80px; */
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+.nav-link-glow:hover {
+  /* font-size: 80px; */
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #FFF829, 0 0 40px #FFF829, 0 0 50px #FFF829, 0 0 60px #FFF829, 0 0 70px #FFF829;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #FFFA75, 0 0 40px #FFFA75, 0 0 50px #FFFA75, 0 0 60px #FFFA75, 0 0 70px #FFFA75, 0 0 80px #FFFA75;
+  }
+}
 
